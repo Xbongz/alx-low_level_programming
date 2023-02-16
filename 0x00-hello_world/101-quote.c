@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * main - prints exactly "and that piece of art is useful"
+ * main -  prints exactly "and that piece of art is useful"
  * - Dora Korpar, 2015-10-19",
- * followed by new line.
- * Return: 0 (Success)
+ * followed by a new line.
+ * Return: 0
  */
 int main(void)
 {
