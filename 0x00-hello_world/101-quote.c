@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - prints exactly "and that piece of art is useful"
- * -  Dora Korpar, 2015-10-19",
+ * - Dora Korpar, 2015-10-19",
  * followed by new line.
  * Return: 0 (Success)
  */
