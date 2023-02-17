@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible single digit numbers
+ * main - prints all possible single digit numbers,
  * Return: 0 (success)
  */
 int main(void)
@@ -13,8 +13,8 @@ int main(void)
 		putchar(n);
 		if (n != 57)
 		{
-			putchar(",);
-			putchar('');
+			putchar('\',);
+			putchar('\');
 		}
 	}
 	putchar('\n');
