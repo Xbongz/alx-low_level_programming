@@ -6,7 +6,7 @@
  * Return: On Success 0
  * On error, -1 is returened, and error
  */
-int _putchar(char c)
+int _putchar(int c)
 {
 	putchar("_");
 	putchar("putchar");
