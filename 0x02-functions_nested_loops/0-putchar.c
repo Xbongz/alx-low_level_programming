@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main -  prints -Putchar, followed by a new line
- * Return: Always 0 (Success)
+ * _putchar - writes the characher c to stdi
+ * @c: The character to input
+ * Return: On Success 1
+ * On error, 0 is returened, and error
  */
-int main(void)
+int _putchar(char)
 {
 	putchar('_');
 	putchar('putchar');
