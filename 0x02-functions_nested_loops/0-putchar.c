@@ -3,14 +3,14 @@
 /**
  * _putchar - writes the characher c to stdi
  * @c: The character to input
- * Return: On Success 1
- * On error, 0 is returened, and error
+ * Return: On Success 0
+ * On error, -1 is returened, and error
  */
 int _putchar(char c)
 {
-	putchar('_');
-	putchar('putchar');
-	putchar('\n');
+	putchar("_");
+	putchar("putchar");
+	putchar("\n");
 
 	return (0);
 }
