@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _HOLBERTON_H_
+#define _HOLBERT0N_H_
 
 0-isupper.o
 0-memset.o
@@ -21,4 +21,5 @@
 6-abs.o
 9-strcpy.o
 _putchar.o
-#endif
+
+#endif /*_HOLBERTON_H_*/
