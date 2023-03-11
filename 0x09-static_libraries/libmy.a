@@ -1,5 +1,5 @@
-#ifndef FILE_HOLBERRTON
-#define FILE_HOLBERTON
+#ifndef MAIN_H
+#define MAIN_H
 
 0-isupper.o
 0-memset.o
