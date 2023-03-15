@@ -1,1 +1,1 @@
-0x09 static library
+0x09 static
