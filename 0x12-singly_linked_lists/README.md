@@ -1,1 +1,1 @@
-0x12.c-Singly linkede
+0x12.c-singly
