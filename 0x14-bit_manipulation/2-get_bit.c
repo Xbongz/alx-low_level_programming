@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * get_bit - return value of bit on index
