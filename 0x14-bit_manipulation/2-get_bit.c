@@ -8,11 +8,12 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	if (index >= (sizeof(unsigned long int) * 8))
+	int bit_value;
+
+	if (index > 63)
+	{
 		return (-1);
-
-	unsigned long int mask = 1ul << index;
-	unsigned long int bit = (n & mask) >> index;
-
-	return ((int) bit);
+	}
+	bit_value = (n >> index & 1);
+	return (bit_value);
 }
