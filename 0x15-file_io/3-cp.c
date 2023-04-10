@@ -44,8 +44,12 @@ int main(int argc, char **argv)
 	if (r == -1)
 		error_exit(98, "Error: Can't read from file");
 	if (close(fd_from) == -1)
+	{
 	error_exit(100, "Error: Can't close file descriptor");
+	}
 	if (close(fd_to) == -1)
+	{
 	error_exit(100, "Error: Can't close file descriptor");
+	}
 	return (0);
 }
